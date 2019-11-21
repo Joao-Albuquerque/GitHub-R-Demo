@@ -23,4 +23,9 @@ summary(ChickWeight)
 with(ChickWeight, plot(Time, weight, col=Diet))
 ```
 
+## Do some modifications in the file:
+
+```{r pressure, echo=FALSE}
+lm(weight~Time,Diet, data=ChickWeight)
+```
 
